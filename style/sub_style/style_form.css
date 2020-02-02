@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10% 8% 0 8%;
+  overflow: hidden;
+}
+
+::placeholder {
+  font-family: 'Maven Pro';
+}
+
+.reg_container {
+  height: auto;
+  width: 100%;
+  /* border: 2px solid black; */
+}
+
+.nme {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 4%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-family: 'Maven Pro';
+  font-size: 1em;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: .3em .2em .5em rgba(151, 159, 156, 0.5);
+  border-bottom: 0;
+  border-right: 0;
+  border-left: 2px solid 	#74ebd5;
+  border-top: 0;
+}
+
+.nme:focus {
+  outline: none;
+}
+
+#btn_submit {
+  background-color: #1ab394;
+  border: 0px;
+  font-family: 'Maven Pro';
+  font-size: 1em;
+  color: white;
+  width: 100%;
+  padding: 4%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  box-shadow: .3em .2em .5em rgba(151, 159, 156, 0.5);
+}
+
+#btn_submit:hover {
+  background-color: #17a185;
+  box-shadow: .1em .1em .5em rgba(151, 159, 156, 0.5);
+}
+
+#btn_submit:focus {
+  outline: none;
+}
+
+#reg_header {
+  color: #1ab394;
+  font-family: 'Maven Pro';
+}
+
+#btn {
+  position: absolute;
+  bottom: 10%;
+  box-sizing: border-box;
+  width: 84%;
+}
+
+#btn_reg {
+  background-color: #f8ac59;
+  border: 0px;
+  font-family: 'Maven Pro';
+  font-size: 1em;
+  color: white;
+  width: 100%;
+  padding: 4%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  box-shadow: .3em .2em .5em rgba(151, 159, 156, 0.5);
+}
+
+#btn_reg:hover {
+  background-color: #df9a50;
+  box-shadow: .1em .1em .5em rgba(151, 159, 156, 0.5);
+}
+
+#btn_reg:focus {
+  outline: none;
+}
+
+#btn_detail {
+  background-color: #ed5565;
+  border: 0px;
+  font-family: 'Maven Pro';
+  font-size: 1em;
+  color: white;
+  width: 100%;
+  padding: 4%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  box-shadow: .3em .2em .5em rgba(151, 159, 156, 0.5);
+}
+
+#btn_detail:hover {
+  background-color: #d54c5a;
+  box-shadow: .1em .1em .5em rgba(151, 159, 156, 0.5);
+}
+
+#btn_detail:focus {
+  outline: none;
+}
+
+.info {
+  width: 100%;
+  font-family: 'Maven Pro';
+  color: #2c2c2c;
+}
+
+#info_head {
+  color: #1ab394;
+}

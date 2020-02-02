@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.info {
+  height: 100%;
+  /* width: 100%; */
+  margin: 10%;
+  font-family: 'Maven Pro';
+  color: #2c2c2c;
+}
+
+#info_head {
+  color: #1ab394;
+}
+
+#info_para {
+
+}
