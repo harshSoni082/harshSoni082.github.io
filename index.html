@@ -1,13 +1,30 @@
+<!DOCTYPE HTML>
 <html>
     <head>
-        <title>IIIT Sonepat</title>
-        <link href="https://fonts.googleapis.com/css?family=Comfortaa|Fredoka+One|Gothic+A1|Kanit|Maven+Pro|Merriweather+Sans|Tajawal&display=swap" rel="stylesheet">
+        <title>
+            Form Validation
+        </title>
+        <link href="style/style.css" rel="stylesheet" type="text/css">
+        <script src="script/script.js"></script>
     </head>
-
-    <frameset rows='18%, 8%, *, 10%' border='0'>
-        <frame src='frames/main_head.html'></frame>
-        <frame src='frames/nav_buttons.html'></frame>
-        <frame src='frames/body_container.html'></frame>
-        <frame src='frames/footer.html'></frame>
-    </frameset>
+    
+    <body>
+        <div class="container">
+            <div class="form-container">
+                <form class="form" action="#" method="POST" onclick="formValidate">
+                    <p><input id="full-nme" class="input" type="text" placeholder="Full Name" required></p>
+                    <p><input id="mail" class="input" type="email" placeholder="Email" required></p>
+                    <p><input id="phone" class="input" type="tel" placeholder="Phone No"></p>
+                    <div class="button-container">
+                        <input id="submit" type="button" value="Submit">
+                        <input id="reset" type="reset" value="Reset">
+                    </div>
+                </form>
+            </div>
+            <div class="map-container">
+                <img id="map" src="resources/GoogleMapTA.jpg" height="100%" width="100%">
+            </div>
+        </div>
+    </body>
+    
 </html>
